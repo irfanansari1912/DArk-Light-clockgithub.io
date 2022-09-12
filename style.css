@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    transition: background-color 1000ms;
+}
+
+.click {
+    background-color: #000000;
+    color: white;
+    box-shadow: 8px 8px 8px rgb(155, 156, 54);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    transform: translate(550%, 250%);
+    font-weight: bolder;
+}
+
+.clock {
+    color: rgb(189, 101, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.dark {
+    color: rgb(155, 156, 54);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.light {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.name {
+    text-align: center;
+    color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: auto;
+}
